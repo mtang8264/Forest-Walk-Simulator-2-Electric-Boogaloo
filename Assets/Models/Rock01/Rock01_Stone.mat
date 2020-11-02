@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree01_Material
+  m_Name: Rock01_Stone
   m_Shader: {fileID: 4800000, guid: 1734c7346021f5942b8897d724559bc9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 2cb9dd2ccef74a8479abc5ff495c6e03, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -60,11 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: d4b5b4fc4b3e5ce489721daa0b5f1630, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: d4b5b4fc4b3e5ce489721daa0b5f1630, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -72,23 +68,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ASEOutlineWidth: 0.015
-    - _AmbientLightIntensity: 0.08399228
+    - _AmbientLightIntensity: 0.01
+    - _AmbientLightingIntensity: 0.4
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 4.99
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimAmount: 1
-    - _RimThreshold: 0.07
-    - _Shades: 20
-    - _Shininess: 0.1
+    - _RimAmount: 0.07
+    - _RimThreshold: 1
+    - _Shades: 5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -96,11 +91,10 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
-    - _AmbientLightingColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+    - _AlbedoColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+    - _AmbientLightColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - _AmbientLightingColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
