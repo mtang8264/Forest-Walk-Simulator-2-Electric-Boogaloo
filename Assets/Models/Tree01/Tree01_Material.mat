@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tree01_Material
-  m_Shader: {fileID: 4800000, guid: 1734c7346021f5942b8897d724559bc9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 09968891fc8f26b41b23937344eed7cf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: d4b5b4fc4b3e5ce489721daa0b5f1630, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2cb9dd2ccef74a8479abc5ff495c6e03, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
@@ -73,7 +73,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ASEOutlineWidth: 0.015
-    - _AmbientLightIntensity: 0.08399228
+    - _AmbientLightIntensity: 0.3
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

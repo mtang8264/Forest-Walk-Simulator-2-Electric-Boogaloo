@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Rock01_Moss
-  m_Shader: {fileID: 4800000, guid: 1734c7346021f5942b8897d724559bc9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 09968891fc8f26b41b23937344eed7cf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -68,7 +68,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientLightIntensity: 0.12
+    - _ASEOutlineWidth: 0.0025
+    - _AmbientLightIntensity: 0.2
     - _AmbientLightingIntensity: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -83,7 +84,7 @@ Material:
     - _Parallax: 0.02
     - _RimAmount: 0.361
     - _RimThreshold: 0.842
-    - _Shades: 5
+    - _Shades: 12.36
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -91,10 +92,11 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _AlbedoColor: {r: 0, g: 0.603, b: 0, a: 1}
     - _AmbientLightColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
     - _AmbientLightingColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.66, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
