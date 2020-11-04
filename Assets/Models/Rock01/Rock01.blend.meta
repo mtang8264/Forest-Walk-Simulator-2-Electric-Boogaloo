@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d74e3a6bfbb95c54f8a872784d100ea6
+guid: 785a47144f95a6349b2983260f72d4c9
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 3824590013a416240b1267bcdae4c509, type: 2}
+      name: Moss
+    second: {fileID: 2100000, guid: a7a09e8cf577ea04ba9b880e79758949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: ab965e02f668f2e41a04c013b3566247, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -39,7 +44,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
@@ -86,7 +91,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.25
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
