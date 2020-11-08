@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraControls : MonoBehaviour
 {
+    public static CameraControls inst;
+
     [SerializeField]
     Transform player;   // The player so we can center the camera on them.
     [SerializeField]
@@ -20,6 +22,11 @@ public class CameraControls : MonoBehaviour
     Vector2 rotationMultipliers;    // Multipliers to allow the rotation speed of the camera to be tuned.
 
     public Vector3 Forward { get { Vector3 f = player.position - transform.position; f.y = 0f; f.Normalize(); return f; } }
+
+    void Start()
+    {
+        inst = this;
+    }
 
     void Update()
     {
