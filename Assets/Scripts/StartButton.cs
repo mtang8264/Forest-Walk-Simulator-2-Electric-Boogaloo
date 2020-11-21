@@ -7,10 +7,14 @@ public class StartButton : MonoBehaviour
 {
     public Button playButton;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         playButton.onClick.AddListener(TaskOnClick);
     }
+    /*void Start()
+    {
+        playButton.onClick.AddListener(TaskOnClick);
+    }*/
 
     // Update is called once per frame
     
